@@ -4,7 +4,7 @@ import close from "../../images/close.svg";
 import delivery from "../../images/delivery.png";
 import star from "../../images/star-icon.svg";
 import uzo from "../../images/uzos.jpg";
-import arit from "../../images/arit.jpg";
+import pic from "../../images/pic-ed.jpg";
 import appstore from "../../images/appstore.png";
 import playstore from "../../images/play.png";
 
@@ -181,11 +181,11 @@ function Home() {
               </div>
 
               <div class="info">
-                <h4>Arit Ibazebo</h4>
-                <p class="company">Accountant, Breeze Micro</p>
+                <h4>Funmi Agbo</h4>
+                <p class="company">Accountant, Deloitte Nigeria</p>
               </div>
 
-              <img src={arit} alt="" />
+              <img src={pic} alt="" />
             </div>
           </div>
 

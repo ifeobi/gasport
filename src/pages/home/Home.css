@@ -1,5 +1,5 @@
 :root {
-  --orange-color: #da722c;
+  --orange-color: rgb(253, 76, 12);
   --dark-red-color: #480e0e;
   --dark-color: #070917;
   --light-color: #e8f7fb;
@@ -49,7 +49,7 @@ body {
 /* Header */
 
 header {
-  background: linear-gradient(180deg, #ec6868 0%, #480e0e 100%);
+  background: rgb(253, 76, 12);
   height: 100vh;
   width: 100%;
 }
@@ -694,7 +694,7 @@ nav.mobile-nav,
     display: flex;
   }
   nav.mobile-nav.scrolled {
-    background-color: var(--light-red-color);
+    background-color: var(--orange-color);
     box-shadow: 0 9px 21px -5px rgba(0, 0, 0, 0.3);
     border-radius: 0 0 8px 8px;
     padding: 8px 100;
@@ -783,6 +783,7 @@ nav.mobile-nav,
   .hero-section .right {
     overflow: hidden;
     transform: translateX(30px);
+    width: 75%;
   }
 
   .achievement-card h3 {

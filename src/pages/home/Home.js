@@ -79,7 +79,7 @@ function Home() {
 
           <nav class="mobile-nav scrolled">
             <div class="logo" style={{ cursor: "pointer" }}>
-              Gasport.
+              Gasport
             </div>
             <div class="menu-icon">
               <img src={menu} alt="" />
@@ -98,7 +98,7 @@ function Home() {
               <a href="#">Services</a>
             </li> --> */}
               <li>
-                <a href="#">Newsfeed</a>
+              <Link to="/newsfeed">Newsfeed</Link>
               </li>
               <li>
                 <a href="tel:+2348085235006" class="btn dark">
@@ -122,7 +122,7 @@ function Home() {
                 convenience of cooking delicious meals for your family while
                 staying safe indoors.
               </p>
-              <a href="tel:+2348085235006" class="btn light">
+              <a href="tel:+2348085235006" class="btn dark">
                 Contact us
               </a>
             </div>

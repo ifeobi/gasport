@@ -7,10 +7,10 @@ import uzo from "../../images/uzos.jpg";
 import pic from "../../images/pic-ed.jpg";
 import appstore from "../../images/appstore.png";
 import playstore from "../../images/play.png";
-
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
+
 
 function Home() {
   useEffect(() => {
@@ -98,7 +98,7 @@ function Home() {
               <a href="#">Services</a>
             </li> --> */}
               <li>
-              <Link to="/newsfeed">Newsfeed</Link>
+                <Link to="/newsfeed">Newsfeed</Link>
               </li>
               <li>
                 <a href="tel:+2348085235006" class="btn dark">

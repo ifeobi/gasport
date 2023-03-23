@@ -899,6 +899,10 @@ nav.mobile-nav,
 }
 
 @media (max-width: 300px) {
+
+  .wrapper {
+    overflow-x: hidden;
+  }
   .hero-section .left h1 {
     font-size: 24px;
   }

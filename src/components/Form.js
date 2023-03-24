@@ -36,6 +36,15 @@ const Form = () => {
   };
   return (
     <>
+      <br />
+      <br />
+      <ul>
+        {successText ? (
+          <li style={{ color: "green" }}> {successText} </li>
+        ) : (
+          <li>Subscribe to our Weekly Newsletter!</li>
+        )}
+      </ul>
       <form ref={form} onSubmit={sendEmail}>
         <div>
           <p>{errorText}</p>
@@ -48,13 +57,6 @@ const Form = () => {
           <button class="submit-btn">Subscribe</button>
         </div>
       </form>
-      <ul>
-        {successText ? (
-          <li style={{ color: "green" }}> {successText} </li>
-        ) : (
-          <li>Subscribe to our Weekly Newsletter!</li>
-        )}
-      </ul>
     </>
   );
 };

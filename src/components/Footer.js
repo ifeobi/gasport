@@ -77,11 +77,12 @@ const Footer = () => {
                 </a>
               </div>
 
-              <Form />              
+              <Form />
             </div>
           </div>
-
-          <p class="copyright">
+          <br />
+          <br />
+          <p class="copyright" style={{textAlign: 'center'}}>
             This website was developed by{" "}
             <a href="https://stripe-tec.com" style={{ color: "blue" }}>
               Stripe-tec

@@ -182,7 +182,7 @@ function Home() {
 
               <div class="info">
                 <h4>Funmi Agbo</h4>
-                <p class="company">Accountant, Deloitte Nigeria</p>
+                <p class="company">Auditor</p>
               </div>
 
               <img src={pic} alt="" />

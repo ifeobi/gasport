@@ -51,7 +51,7 @@ const Form = () => {
           <input
             name="user_email"
             type="email"
-            placeholder="Send us your email and get a free delivery!"
+            placeholder="Send us your email to get info on our giveaways!"
             required
           />
           <button class="submit-btn">Subscribe</button>

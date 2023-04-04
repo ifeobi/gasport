@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Privacy from "./components/modal/Privacy";
-import Blog from "./pages/blog/Blog";
-import BlogDetails from "./pages/blogdetails/BlogDetails";
+// import Blog from "./pages/blog/Blog";
+// import BlogDetails from "./pages/blogdetails/BlogDetails";
 import Home from "./pages/home/Home";
 
 const router = createBrowserRouter([
@@ -17,20 +17,20 @@ const router = createBrowserRouter([
         path: "/privacy",
         element: <Privacy />,
       },
-      {
-        path: "/newsfeed",
-        children: [
-          {
-            index: true,
-            path: "",
-            element: <Blog />,
-          },
-          {
-            path: "/newsfeed/:id",
-            element: <BlogDetails />,
-          },
-        ],
-      },
+      // {
+      //   path: "/newsfeed",
+      //   children: [
+      //     {
+      //       index: true,
+      //       path: "",
+      //       element: <Blog />,
+      //     },
+      //     {
+      //       path: "/newsfeed/:id",
+      //       element: <BlogDetails />,
+      //     },
+      //   ],
+      // },
     ],
   },
 ]);

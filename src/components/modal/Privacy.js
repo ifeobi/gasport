@@ -9,9 +9,9 @@ export default function Privacy() {
         <Link to="/" style={{ textDecoration: "none", color: "black" }}>
           <h1 style={{ cursor: "pointer" }}>Gasport</h1>
         </Link>
-        <Link to="/newsfeed" style={{ textDecoration: "none", color: "black" }}>
+        {/* <Link to="/newsfeed" style={{ textDecoration: "none", color: "black" }}>
           <h1 style={{ cursor: "pointer" }}>Newsfeed</h1>
-        </Link>
+        </Link> */}
       </div>
       <div className="privacy">
         <div className="modal-content">

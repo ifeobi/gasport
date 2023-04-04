@@ -64,9 +64,9 @@ function Home() {
             <li>
               <a href="#">Services</a>
             </li> --> */}
-              <li>
+              {/* <li>
                 <Link to="/newsfeed">Newsfeed</Link>
-              </li>
+              </li> */}
               <li>
                 <a href="tel:+2348085235006" class="btn dark">
                   Contact us

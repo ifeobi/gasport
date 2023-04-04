@@ -19,7 +19,7 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setSuccessText("Successful! Contact us for your free delivery! ");
+          setSuccessText("Successful!");
           setTimeout(() => {
             setSuccessText("");
           }, 5000);
